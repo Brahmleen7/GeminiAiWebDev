@@ -953,35 +953,97 @@ h1, nav a, .logo span, .dropdown-content a, .social-icons a, footer p {
 
 
 
+/* MOBILE RESPONSIVENESS */
+
 @media (max-width: 768px) {
-  * {
-    box-sizing: border-box;
-    max-width: 100%;
-    overflow-x: hidden;
+  header {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  body {
-    padding: 10px;
-    font-size: 16px;
+  .logo {
+    align-items: center;
+    margin-left: 0;
   }
 
-  img, video, iframe {
+  nav ul {
+    flex-direction: column;
     width: 100%;
-    height: auto;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 30px 15px;
+    text-align: center;
+  }
+
+  .hero-text {
+    padding-right: 0;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .about-content {
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .about-image {
+    max-width: 100%;
+  }
+
+  .about-section {
+    padding: 30px 15px;
+  }
+
+  .clouds-container {
+    grid-template-columns: 1fr;
+    padding: 0 15px;
+  }
+
+  .register-image img {
+    max-width: 80%;
+  }
+
+  .social-icon {
+    width: 100px;
+    height: 100px;
+  }
+
+  .tracks-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .grid-container,
+  .grid-container.second {
+    grid-template-columns: 1fr;
+  }
+
+  .FAQ nav {
+    padding: 1rem;
   }
 
   .timeline-container {
-    flex-direction: column !important;
-    align-items: center;
+    padding: 2rem 1rem;
   }
 
-  .timeline-item {
-    width: 100% !important;
+  .prizes h1 {
+    font-size: 2rem;
+  }
+
+  .prize-card {
+    padding: 1rem;
+  }
+
+  .register-button {
+    font-size: 1rem;
+    padding: 10px 20px;
   }
 }
 
-  50% {
-    transform: scale(1.1);
-    text-shadow: 0 0 12px #ffff00, 0 0 18px #ffdd33;
-  }
-}
