@@ -6,23 +6,46 @@ body {
     color: white; /* Changed default text color to white */
     
 }
-
 header {
-    background-color: #A5158C; /* Header background */
-    padding: 1em 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap; 
+  background-color: #A5158C;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header img {
+  max-width: 200px;
+  height: auto;
+}
+
+header h1 {
+  margin: 10px 0 5px 0;
+  font-size: 18px;
+  color: white;
+  font-family: monospace;
 }
 
 nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 15px;
-    width: auto;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: monospace;
 }
 
 .logo {
@@ -45,25 +68,7 @@ nav {
     
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 15px;
-}
 
-nav li {
-    margin: 0;
-    position: relative;
-}
-
-nav a {
-    color: white; /* Changed navigation link color to white */
-    text-decoration: none;
-}
 
 .dropdown-content {
     display: none;
