@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="devcation_logo.jpeg" type="image/jpeg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="discord_logo.png" alt="GDG Logo">
+            <span>Google Developer Groups on Campus</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="devcation.html">Devcation '25</a></li>
+                <li><a href="timeline.html">Timeline</a></li>
+                <li><a href="event.html">Events</a></li>
+                <li class="dropdown">
+                    <a href="#">More ▼</a>
+                    <div class="dropdown-content">
+                        <a href="tracks.html">Tracks</a>
+                        <a href="prizes.html">Prizes</a>
+                        <a href="sponsors.html">Sponsors</a>
+                    </div>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <section class="bg-gradient-to-b from-black-800 to-pink-800 py-12 px-4" id="contact">
+        <div class="max-w-2xl mx-auto bg-white rounded-xl shadow-xl p-8">
+          <h2 class="text-3xl font-bold text-center text-purple-700 mb-6">Contact Us</h2>
+          
+          <form action="index.html" method="POST" class="space-y-6">
+            <!-- Name -->
+            <div>
+              <label for="name" class="block text-gray-700 font-semibold mb-2">Name</label>
+              <input type="text" id="name" name="name" required
+                class="w-full border border-purple-300 rounded-lg px-4 py-2 text-gray-900 focus:outline-none focus:ring-2 focus:ring-purple-500" />
+            </div>
+          
+            <!-- Gmail -->
+            <div>
+              <label for="email" class="block text-gray-700 font-semibold mb-2">Gmail</label>
+              <input type="email" id="email" name="email" required
+                class="w-full border border-purple-300 rounded-lg px-4 py-2 text-gray-900 focus:outline-none focus:ring-2 focus:ring-purple-500" />
+            </div>
+          
+            <!-- Subject -->
+            <div>
+              <label for="subject" class="block text-gray-700 font-semibold mb-2">Subject</label>
+              <input type="text" id="subject" name="subject" required
+                class="w-full border border-purple-300 rounded-lg px-4 py-2 text-gray-900 focus:outline-none focus:ring-2 focus:ring-purple-500" />
+            </div>
+          
+            <!-- Message -->
+            <div>
+              <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
+              <textarea id="message" name="message" rows="4" required
+                class="w-full border border-purple-300 rounded-lg px-4 py-2 text-gray-900 focus:outline-none focus:ring-2 focus:ring-purple-500"></textarea>
+            </div>
+          
+            <!-- Submit Button -->
+            <div class="text-center">
+              <button type="submit"
+                class="bg-purple-700 text-white px-6 py-2 rounded-lg hover:bg-purple-800 transition-all duration-200">
+                Contact Us
+              </button>
+            </div>
+          </form>
+          
+        </div>
+      </section>
+
+      <div class="FAQ">
+        <h1> FREQUENTLY ASKED QUESTIONS </h1>
+      
+        <div class="grid-container">
+          <nav class="ques1">
+            <p> Who can contribute? </p>
+            <p> Devcation is open to anyone with an interest in technology, innovation, and problem-solving. Participants can include students, developers, designers, entrepreneurs, and professionals from various backgrounds. </p>
+          </nav>
+      
+          <nav class="ques2">
+            <p> What happens after the hackathon ends? </p>
+            <p> After the hackathon concludes, top 10 teams will be invited to present their projects to judges and fellow participants during the final pitching round at IGDTUW. Winners will be announced, and prizes awarded based on the judging criteria. Date for this is 15th April, 2025. </p>
+          </nav>
+        </div>
+      
+        <div class="grid-container second">
+          <nav class="ques3">
+            <p> How can I stay updated on hackathon announcements and events? </p>
+            <p> Stay informed about Devcation'25 by joining our Discord Server. Know more about upcoming hackathons and events by GDG IGDTUW by joining our GDG Chapter. </p>
+          </nav>
+      
+          <nav class="ques4">
+            <p> Do I need to have coding experience to participate? </p>
+            <p> While coding experience is beneficial, it's not always necessary to participate in a hackathon. Many hackathons welcome participants with diverse skill sets, including design, business development, marketing, and project management. If you're a beginner you can also look at our mini events. </p>
+          </nav>
+      
+          <nav class="ques5">
+            <p> Where can we reach out in case of queries? </p>
+            <p> You can reach out to us on our Discord Server with any queries. Kindly use the doubt channel for the same! </p>
+          </nav>
+        </div>
+      </div>
+      
+    <footer>
+        <p>&copy; 2025 Devcation 25</p>
+    </footer>
+
+</body>
+</html>
