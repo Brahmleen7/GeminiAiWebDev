@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #410445; /* Dark background */
     color: white; /* Changed default text color to white */
+    
 }
 
 header {
@@ -12,6 +13,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap; 
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    width: auto;
 }
 
 .logo {
@@ -39,11 +50,14 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
 }
 
 nav li {
-    margin-left: 20px;
-    position: relative; /* For dropdown */
+    margin: 0;
+    position: relative;
 }
 
 nav a {
