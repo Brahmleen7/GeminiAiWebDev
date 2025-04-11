@@ -950,6 +950,36 @@ h1, nav a, .logo span, .dropdown-content a, .social-icons a, footer p {
     transform: scale(1);
     text-shadow: 0 0 8px #ffcc00, 0 0 14px #ffcc00;
   }
+
+
+
+@media (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  img, video, iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  .timeline-container {
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .timeline-item {
+    width: 100% !important;
+  }
+}
+
   50% {
     transform: scale(1.1);
     text-shadow: 0 0 12px #ffff00, 0 0 18px #ffdd33;
